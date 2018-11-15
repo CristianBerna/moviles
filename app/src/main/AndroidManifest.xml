@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cesde.sistemalogin2">
+    package="com.example.cesde.clase">
 
     <application
         android:allowBackup="true"
@@ -16,18 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".acceso_permitido"
-            android:label="@string/title_activity_acceso_permitido"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".acceso_denegado"
-            android:label="@string/title_activity_acceso_denegado"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".informacion"
-            android:label="@string/title_activity_informacion"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
